@@ -5,3 +5,4 @@ flask_socketio
 feedparser
 sqlalchemy
 wtforms
+flask_wtf
