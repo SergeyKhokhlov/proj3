@@ -861,7 +861,6 @@ def main():
     api.add_resource(api_func.NewsListResource, '/api/forum')
     api.add_resource(api_func.NewsResource, '/api/forum/<int:news_id>')
     socketio.run(app)
-    app.run(port=3000, host='127.0.0.1')  # запуск приложения
 
 
 if __name__ == '__main__':
