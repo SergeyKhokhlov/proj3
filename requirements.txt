@@ -6,3 +6,4 @@ feedparser
 sqlalchemy
 wtforms
 flask_wtf
+requests
